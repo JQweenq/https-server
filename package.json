@@ -1,0 +1,12 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "it just server :3",
+  "main": "server.js",
+  "scripts": {
+    "side": "server.js"
+  },
+  "keywords": [],
+  "author": "Josty-Qweenq",
+  "license": "MIT"
+}
