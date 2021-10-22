@@ -1,4 +1,4 @@
-<h1 align="center">Server<h1>
+<h1 align="center">Https server<h1>
 
 # Запуск
 
@@ -10,3 +10,8 @@ req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' -keyout localhos
 ```
 
 затем поместите файлы `localhost-privkey.pem` и `localhost-cert.pem` в одну директорию вместе с файлом "server.js", т.е. в корень репозитория. Выходные файлы расположены в директории, которая указана в консоли.
+
+Чтобы запустить сервер в кофиге указывает номер порта и хост, если хост `null`, то используется имя ПК или ip
+```
+npm run start
+```
